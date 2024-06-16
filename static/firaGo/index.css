@@ -1,0 +1,143 @@
+/* normal */
+
+@font-face {
+    font-family: "FiraGo";
+    src: url("./Roman/FiraGO-Heavy.woff2") format("woff2");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "FiraGo";
+    src: url("./Roman/FiraGO-ExtraBold.woff2") format("woff2");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "FiraGo";
+    src: url("./Roman/FiraGO-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "FiraGo";
+    src: url("./Roman/FiraGO-SemiBold.woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "FiraGo";
+    src: url("./Roman/FiraGO-Medium.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "FiraGo";
+    src: url("./Roman/FiraGO-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "FiraGo";
+    src: url("./Roman/FiraGO-Book.woff2") format("woff2");
+    font-weight: 350;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "FiraGo";
+    src: url("./Roman/FiraGO-Light.woff2") format("woff2");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "FiraGo";
+    src: url("./Roman/FiraGO-ExtraLight.woff2") format("woff2");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "FiraGo";
+    src: url("./Roman/FiraGO-Thin.woff2") format("woff2");
+    font-weight: 100;
+    font-style: normal;
+}
+
+/* Italic */
+
+@font-face {
+    font-family: "FiraGo";
+    src: url("./Italic/FiraGO-HeavyItalic.woff2") format("woff2");
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "FiraGo";
+    src: url("./Italic/FiraGO-ExtraBoldItalic.woff2") format("woff2");
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "FiraGo";
+    src: url("./Italic/FiraGO-BoldItalic.woff2") format("woff2");
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "FiraGo";
+    src: url("./Italic/FiraGO-SemiBoldItalic.woff2") format("woff2");
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "FiraGo";
+    src: url("./Italic/FiraGO-MediumItalic.woff2") format("woff2");
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "FiraGo";
+    src: url("./Italic/FiraGO-Italic.woff2") format("woff2");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "FiraGo";
+    src: url("./Italic/FiraGO-BookItalic.woff2") format("woff2");
+    font-weight: 350;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "FiraGo";
+    src: url("./Italic/FiraGO-LightItalic.woff2") format("woff2");
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "FiraGo";
+    src: url("./Italic/FiraGO-ExtraLightItalic.woff2") format("woff2");
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "FiraGo";
+    src: url("./Italic/FiraGO-ThinItalic.woff2") format("woff2");
+    font-weight: 100;
+    font-style: italic;
+}

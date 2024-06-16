@@ -1,0 +1,41 @@
+:root {
+  --slide-width: 800px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "FiraGO";
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.slides {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #e0e0e0;
+}
+
+.slide {
+  position: absolute;
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.slide-inner {
+  aspect-ratio: var(--ratio, 1511 / 1133);
+  margin: auto;
+  width: var(--slide-width);
+  background-color: white;
+  border: 1px solid #8e8e8e;
+}
