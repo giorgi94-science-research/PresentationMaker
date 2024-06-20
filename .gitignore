@@ -1,0 +1,11 @@
+__pycache__/
+env/
+tmp/
+
+*.py[cod]
+
+
+*.local
+
+output/*
+!output/*.pdf

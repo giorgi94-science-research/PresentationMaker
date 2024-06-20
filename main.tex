@@ -1,0 +1,93 @@
+\documentclass[12pt]{article}
+\usepackage{fontspec}
+
+% \setmainfont[
+%     Extension = .ttf,
+%     Path = fonts/,
+%     BoldFont = Myfont-bold,
+%     BoldItalicFont = Myfont-bolditalic,
+%     ItalicFont = Myfont-italic
+% ]{FiraGO}
+
+\setmainfont{FiraGO}
+\usepackage[english, georgian]{babel}
+
+\usepackage[mathcal]{euscript}
+\usepackage{indentfirst, verbatim}
+\usepackage{amssymb, amsmath, amsthm}
+\usepackage{tikz, xcolor, graphicx, arcs}
+\usepackage{titlesec, tocloft, anyfontsize}
+\usepackage{hyperref}
+
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage{mdframed}
+\usepackage{xifthen}
+
+\usepackage[  
+    paperheight=9.6cm,
+    paperwidth=12.79cm,
+    bottom=0.32cm,
+    left=0.32cm, 
+    top=0.38cm, 
+    right=0.38cm
+]{geometry}
+
+
+\setlength{\parindent}{0pt}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor =blue,
+}
+
+\definecolor{primary}{HTML}{3333B3}
+% \titleformat{\section}{}{}{}{}
+
+\titleformat{\section}{}{\thesection}{0.5em}{\large\textcolor{primary}}
+
+\newcommand{\slidetitle}[1]{\section*{#1}}
+
+
+% \newenvironment{slide}[1]{
+%     \ifx&#1&
+%     \newpage
+%     \else
+%     \newpage\section{#1}
+%     \fi
+% }{}
+
+\newenvironment{slide}{\newpage}
+
+
+\begin{document}
+
+
+\title{\Large\color{primary} Computation of Generalized Modulus of an $n$-gon}
+\author{Giorgi Kakulashvili}
+\date{\today}
+\maketitle
+
+
+
+\begin{slide}
+    \slidetitle{Sample frame tilte}
+
+    This is intersting
+
+\end{slide}
+
+
+\begin{slide}
+    \slidetitle{This is other}
+    This second slide
+\end{slide}
+
+\begin{slide}
+    This third slide
+\end{slide}
+
+
+
+\end{document}
