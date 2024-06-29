@@ -13,7 +13,7 @@
 \usepackage[english, georgian]{babel}
 
 \usepackage[mathcal]{euscript}
-\usepackage{indentfirst, verbatim}
+\usepackage{indentfirst, verbatim, fancyhdr}
 \usepackage{amssymb, amsmath, amsthm}
 \usepackage{tikz, xcolor, graphicx, arcs}
 \usepackage{titlesec, tocloft, anyfontsize}
@@ -21,16 +21,16 @@
 
 \usepackage{multicol}
 \usepackage{enumitem}
-\usepackage{mdframed}
-\usepackage{xifthen}
+% \usepackage{mdframed}
+% \usepackage{xifthen}
 
 \usepackage[  
     paperheight=9.6cm,
     paperwidth=12.79cm,
     bottom=0.32cm,
-    left=0.32cm, 
     top=0.38cm, 
-    right=0.38cm
+    left=0.32cm, 
+    right=0.32cm
 ]{geometry}
 
 
@@ -39,15 +39,17 @@
 \hypersetup{
     colorlinks=true,
     linkcolor=blue,
-    urlcolor =blue,
+    urlcolor=blue,
 }
 
 \definecolor{primary}{HTML}{3333B3}
 % \titleformat{\section}{}{}{}{}
 
-\titleformat{\section}{}{\thesection}{0.5em}{\large\textcolor{primary}}
+\titleformat{\section}{}{\large\textcolor{primary}{\thesection.}}{0.1em}{\large\textcolor{primary}}
 
 \newcommand{\slidetitle}[1]{\section*{#1}}
+
+\newtheorem{theorem}{Theorem}
 
 
 % \newenvironment{slide}[1]{
@@ -58,17 +60,24 @@
 %     \fi
 % }{}
 
-\newenvironment{slide}{\newpage}
+\setcounter{page}{0}
+
+\newenvironment{slide}[1]{\newpage #1}{\vfill\rightline{\thepage}}
+
 
 
 \begin{document}
 
 
 \title{\Large\color{primary} Computation of Generalized Modulus of an $n$-gon}
-\author{Giorgi Kakulashvili}
-\date{\today}
+\author{\normalsize გიორგი კაკულაშვილი}
+\date{\normalsize \today}
 \maketitle
 
+
+% \begin{slide}
+%     \tableofcontents
+% \end{slide}
 
 
 \begin{slide}
@@ -76,12 +85,21 @@
 
     This is intersting
 
+    \[
+        e^x = \sum_{n=0}^{\infty} \frac{x^n}{n!} = 1 + x + \frac{x^2}{2} + \cdots
+    \]
+
+    \begin{theorem}
+        This is the great theorem $c^2=a^2+b^2$
+    \end{theorem}
+
 \end{slide}
 
 
 \begin{slide}
     \slidetitle{This is other}
-    This second slide
+    This second slide 
+    
 \end{slide}
 
 \begin{slide}
