@@ -49,7 +49,21 @@
 
 \newcommand{\slidetitle}[1]{\section*{#1}}
 
-\newtheorem{theorem}{Theorem}
+
+\newtheoremstyle{colored}
+  {8pt plus3pt minus2pt} % Space above
+  {8pt plus3pt minus2pt} % Space below
+  {\itshape} % Body font
+  {} % Indent amount
+  {\textcolor{primary}{\bfseries}} % Theorem head font
+  {\textcolor{primary}{.}} % Punctuation after theorem head
+  {.25em} % Space after theorem head
+  {\textcolor{primary}{\thmname{#1}}~\textcolor{primary}{\thmnumber{#2}}}
+
+
+\theoremstyle{colored}
+\newtheorem{theorem}{თეორემა}
+
 
 
 % \newenvironment{slide}[1]{
@@ -99,8 +113,14 @@
 \begin{slide}
     \slidetitle{This is other}
     This second slide 
+
     
 \end{slide}
+
+\begin{slide}
+    This third slide
+\end{slide}
+
 
 \begin{slide}
     This third slide
