@@ -1,0 +1,57 @@
+% File: mypresentation.sty
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{mypresentation}[2024/07/06 My custom presentation style]
+
+\RequirePackage{euscript}
+\RequirePackage{indentfirst, verbatim, fancyhdr}
+\RequirePackage{amssymb, amsmath, amsthm}
+\RequirePackage{tikz, xcolor, graphicx, arcs}
+\RequirePackage{titlesec, tocloft, anyfontsize}
+\RequirePackage{hyperref}
+
+\RequirePackage{multicol}
+\RequirePackage{enumitem}
+
+% Your geometry setup
+\RequirePackage{geometry}
+\geometry{
+    paperheight=9.6cm,
+    paperwidth=12.79cm,
+    bottom=0.32cm,
+    top=0.38cm,
+    left=0.32cm,
+    right=0.32cm
+}
+
+\setlength{\parindent}{0pt}
+
+% Your hyperlink setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+% Your color definition
+\definecolor{primary}{HTML}{3333B3}
+
+% Your section title format
+\titleformat{\section}{}{\large\textcolor{primary}{\thesection.}}{0.1em}{\large\textcolor{primary}}
+
+% Define your custom command
+\newcommand{\slidetitle}[1]{\section*{#1}}
+
+
+\newtheoremstyle{colored}
+  {8pt plus3pt minus2pt} % Space above
+  {8pt plus3pt minus2pt} % Space below
+  {\itshape} % Body font
+  {} % Indent amount
+  {\textcolor{primary}{\bfseries}} % Theorem head font
+  {\textcolor{primary}{.}} % Punctuation after theorem head
+  {.25em} % Space after theorem head
+  {\textcolor{primary}{\thmname{#1}}~\textcolor{primary}{\thmnumber{#2}}}
+
+
+
+\endinput

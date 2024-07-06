@@ -11,54 +11,10 @@
 
 \setmainfont{FiraGO}
 \usepackage[english, georgian]{babel}
-
-\usepackage[mathcal]{euscript}
-\usepackage{indentfirst, verbatim, fancyhdr}
-\usepackage{amssymb, amsmath, amsthm}
-\usepackage{tikz, xcolor, graphicx, arcs}
-\usepackage{titlesec, tocloft, anyfontsize}
-\usepackage{hyperref}
-
-\usepackage{multicol}
-\usepackage{enumitem}
-% \usepackage{mdframed}
-% \usepackage{xifthen}
-
-\usepackage[  
-    paperheight=9.6cm,
-    paperwidth=12.79cm,
-    bottom=0.32cm,
-    top=0.38cm, 
-    left=0.32cm, 
-    right=0.32cm
-]{geometry}
+\usepackage{mypresentation}
 
 
-\setlength{\parindent}{0pt}
 
-\hypersetup{
-    colorlinks=true,
-    linkcolor=blue,
-    urlcolor=blue,
-}
-
-\definecolor{primary}{HTML}{3333B3}
-% \titleformat{\section}{}{}{}{}
-
-\titleformat{\section}{}{\large\textcolor{primary}{\thesection.}}{0.1em}{\large\textcolor{primary}}
-
-\newcommand{\slidetitle}[1]{\section*{#1}}
-
-
-\newtheoremstyle{colored}
-  {8pt plus3pt minus2pt} % Space above
-  {8pt plus3pt minus2pt} % Space below
-  {\itshape} % Body font
-  {} % Indent amount
-  {\textcolor{primary}{\bfseries}} % Theorem head font
-  {\textcolor{primary}{.}} % Punctuation after theorem head
-  {.25em} % Space after theorem head
-  {\textcolor{primary}{\thmname{#1}}~\textcolor{primary}{\thmnumber{#2}}}
 
 
 \theoremstyle{colored}
